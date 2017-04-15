@@ -1,0 +1,2 @@
+call jupyter notebook
+pause
