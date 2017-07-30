@@ -1,6 +1,6 @@
 from __future__ import division,print_function
 import math, os, json, sys, re
-import cPickle as pickle
+import cloudpickle as pickle
 from glob import glob
 import numpy as np
 from matplotlib import pyplot as plt
@@ -24,11 +24,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.manifold import TSNE
 
 from IPython.lib.display import FileLink
-
-import theano
-from theano import shared, tensor as T
-from theano.tensor.nnet import conv2d, nnet
-from theano.tensor.signal import pool
+import tensorflow
 
 import keras
 from keras import backend as K
